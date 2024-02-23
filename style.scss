@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1d3557;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0.4rem;
+    gap: 0.5rem;
+    .form {
+        display: flex;
+        gap: 0.5rem;
+        margin: auto;
+        input {
+            padding: 0.5rem 1rem;
+            border: 1px solid white;
+            outline: none;
+            border-radius: 0.3rem;
+            font-size: 1.1rem;
+            background-color: #1d3557;
+            color: white;
+        }
+        button {
+            padding: 0.5rem 1rem;
+            border-radius: 0.3rem;
+            border: none;
+            font-size: 1.1rem;
+        }
+    }
+    .countries {
+        color: white;
+    }
+    .neighbour {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        p{
+            color: white;
+        }
+    }
+}
